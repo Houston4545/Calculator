@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import "dart:math";
 
 void main() => runApp(Calculatornator());
 
@@ -54,7 +53,7 @@ String y ;
             },),
             FlatButton(child: Text('/', style: TextStyle(fontSize: 30),), onPressed: () {
             Navigator.push(context, CupertinoPageRoute(builder: (context) => Results(y: this.y, x: this.x, r: 4)));
-            
+
           },),
         ],
         ),
